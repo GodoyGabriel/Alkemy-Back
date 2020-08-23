@@ -1,0 +1,39 @@
+{
+  "name": "alkemy-back",
+  "version": "1.0.0",
+  "description": "Challenge from Alkemy",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GodoyGabriel/Alkemy-Back.git"
+  },
+  "author": "Godoy Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GodoyGabriel/Alkemy-Back/issues"
+  },
+  "homepage": "https://github.com/GodoyGabriel/Alkemy-Back#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.1",
+    "jsdoc": "^3.6.5",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "password": "^0.1.1",
+    "timeago.js": "^4.0.2",
+    "winston": "^3.3.3"
+  }
+}
